@@ -53,6 +53,7 @@ const Header = () => {
         </svg>
       </div>
       <div className={classes.connect_wallet}>
+        <div className={classes.eth}>-ETH</div>
         <button className={classes.connect}>
           <svg
             width="24"
