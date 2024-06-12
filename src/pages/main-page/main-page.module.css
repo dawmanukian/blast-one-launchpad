@@ -8,4 +8,5 @@
 .page > img {
     position: absolute;
     bottom: -64px;
+    z-index: -1;
 }

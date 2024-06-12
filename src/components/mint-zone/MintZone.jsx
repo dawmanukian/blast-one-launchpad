@@ -5,6 +5,7 @@ import key from "../../img/key.gif";
 const MintZone = () => {
   return (
     <div className={classes.key}>
+      <div className={classes.bg}></div>
       <div className={classes.data}>
         <img src={key} alt="" height={"372px"} width={"342px"} />
         <div className={classes.texts}>
