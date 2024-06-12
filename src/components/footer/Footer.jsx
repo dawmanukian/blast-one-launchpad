@@ -42,7 +42,11 @@ const Footer = () => {
       </div>
       <div className={classes.links}>
         <div>
-          <div className={classes.link}>
+          <a
+            href="https://discord.gg/blastone"
+            target="_blank"
+            className={classes.link}
+          >
             <span>Discord</span>
             <svg
               width="20"
@@ -71,8 +75,12 @@ const Footer = () => {
                 <rect width="20" height="20" fill="white" fill-opacity="0.4" />
               </g>
             </svg>
-          </div>
-          <div className={classes.link}>
+          </a>
+          <a
+            href="https://twitter.com/BlastOne_io"
+            target="_blank"
+            className={classes.link}
+          >
             <span>Twitter</span>
             <svg
               width="20"
@@ -101,7 +109,7 @@ const Footer = () => {
                 <rect width="20" height="20" fill="white" fill-opacity="0.4" />
               </g>
             </svg>
-          </div>
+          </a>
         </div>
         <div>
           <span>© 2024 All rights reserved</span>

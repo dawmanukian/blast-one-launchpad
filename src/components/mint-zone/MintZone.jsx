@@ -11,9 +11,10 @@ const MintZone = () => {
         <div className={classes.texts}>
           <span className={classes.header}>BlastOne: Key</span>
           <p className={classes.info}>
-            This software helps to recover lost phrases, each wallet contains 12
-            words which are its backup code. Using a predefined algorithm, the
-            program searches for and selects these words
+            Early Beta Testing Access: Early backers will be given exclusive
+            access to the beta testing phase of the platform, allowing them to
+            explore features, provide feedback, and influence the development of
+            the platform before the public launch.
           </p>
           <div>
             <div className={classes.line}></div>

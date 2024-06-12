@@ -31,6 +31,10 @@
 .link {
   text-decoration: none;
   color: #fff;
+  transition: all ease 0.5s;
+}
+.link:hover {
+    transform: scale(0.90);
 }
 .links {
   display: flex;

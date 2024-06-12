@@ -15,16 +15,16 @@ const LaunchPad = () => {
         </div>
         <p className={classes.header}>Upcoming</p>
         <div className={classes.cards}>
-          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"}/>
-          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"}/>
-          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"}/>
+          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"} status={"Mint"}/>
+          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"} status={"Mint"}/>
+          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"} status={"Mint"}/>
         </div>
       </div>
       <div className={classes.block}>
         <p className={classes.header}>Previous</p>
         <div className={classes.cards}>
-          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"}/>
-          <CardMint img={key} header={"BlastOne: Key"} startsIn={"2d 01h 13m"} supply={"444"}   />
+          <CardMint img={key} header={"BlastOne: Key"} startsIn={"Open"} supply={"444"} status={"Sold out"} />
+          <CardMint img={key} header={"BlastOne: Key"} startsIn={"Open"} supply={"444"} status={"Sold out"} />
         </div>
       </div>
     </div>

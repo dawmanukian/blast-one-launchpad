@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./card-mint.module.css";
 
-const CardMint = ({ header, img, supply, startsIn }) => {
+const CardMint = ({ header, img, supply, startsIn, status }) => {
   return (
     <div className={classes.card}>
       <div className={classes.data}>
@@ -23,7 +23,7 @@ const CardMint = ({ header, img, supply, startsIn }) => {
             <span>{supply}</span>
           </div>
         </div>
-        <button className={classes.mint}>Mint</button>
+        <button className={classes.mint} disabled={status !== "Mint"}>{status}</button>
       </div>
     </div>
   );

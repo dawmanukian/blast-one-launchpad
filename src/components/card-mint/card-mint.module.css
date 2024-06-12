@@ -8,7 +8,7 @@
   padding: 12px;
 }
 .img {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 .data {
   width: 218px;
@@ -31,28 +31,32 @@
   line-height: 24px;
 }
 .info {
-    width: 100%;
-    height: 58px;
-    margin-bottom: 15px;
-    margin-top: 8px;
-    display: flex;
-    background:#1A1A1A;
-    gap: 32px;
-    padding: 8px;
+  width: 100%;
+  height: 58px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  display: flex;
+  background: #1a1a1a;
+  gap: 32px;
+  padding: 8px;
 }
 .text {
-    height: 42px;
+  height: 42px;
 }
 .text p {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 500;
-    color: #fff;
-    opacity: 40%;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #fff;
+  opacity: 40%;
 }
 .text span {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.mint:disabled {
+  color: #000;
+  opacity: 30%;
 }

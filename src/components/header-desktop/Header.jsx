@@ -14,9 +14,9 @@ const Header = () => {
         <Link className={classes.link} to={"/launchpad"} style={location.pathname === "/launchpad" ? {color: '#FFE000'} : null}>
           Launchpad
         </Link>
-        <Link className={classes.link} to={"/whitepaper"} style={location.pathname === "/whitepaper" ? {color: '#FFE000'} : null}>
+        <a className={classes.link} href={"https://docs.blastone.io/"} target="_blank">
           Whitepaper
-        </Link>
+        </a>
         <Link
           className={classes.link}
           to={"/"}
@@ -53,7 +53,7 @@ const Header = () => {
         </svg>
       </div>
       <div className={classes.connect_wallet}>
-        <div className={classes.eth}>-ETH</div>
+        <div className={classes.eth}>- ETH</div>
         <button className={classes.connect}>
           <svg
             width="24"
