@@ -1,52 +1,75 @@
 .header {
-    width: 100%;
-    height: 8vh;
-    position: sticky;
-    top: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
+  width: 100%;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  min-height: 68px;
+  z-index: 9999;
+  background: #0b0b0b;
 }
 .connect {
-    border: none;
-    background: #FFE000;
-    color: #0B0B0B;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    font-weight: 600;
-    font-size: 16px;
-    gap: 15px;
-    padding-left: 13px;
-    padding-right: 13px;
+  border: none;
+  height: 36px;
+  background: #ffe000;
+  color: #0b0b0b;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .link {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 .links {
-    display: flex;
-    gap: 27px;
+  display: flex;
+  gap: 27px;
 }
 .connect_wallet {
-    display: flex;
-    justify-content: flex-end;
-    gap: 17px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 17px;
 }
 .logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .eth {
-    display: flex;
-    align-items: center;
-    color: #FFE000;
-    background: #23200A;
-    font-weight: 600;
-    padding-left: 13px;
-    padding-right: 13px;
+  display: flex;
+  height: 36px;
+  align-items: center;
+  color: #ffe000;
+  background: #23200a;
+  font-weight: 600;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.menu {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .menu {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .header {
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo {
+    justify-content: start;
+  }
 }

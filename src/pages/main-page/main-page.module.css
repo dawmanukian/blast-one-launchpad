@@ -2,5 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
     min-height: 92vh;
+}
+.page > img {
+    position: absolute;
+    bottom: -64px;
 }

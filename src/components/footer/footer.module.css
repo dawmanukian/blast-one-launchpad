@@ -1,0 +1,37 @@
+.footer {
+    height: 64px;
+    background: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer span {
+    color: #FFFFFF;
+    opacity: 40%;
+    line-height: 24px;
+    font-weight: 500;
+}
+.links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.light {
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.links > div {
+    display: flex;
+    gap: 24px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

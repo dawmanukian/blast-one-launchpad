@@ -1,0 +1,32 @@
+import React from "react";
+import classes from "./card-mint.module.css";
+
+const CardMint = ({ header, img, supply, startsIn }) => {
+  return (
+    <div className={classes.card}>
+      <div className={classes.data}>
+        <img
+          src={img}
+          alt="card image"
+          height={"210px"}
+          width={"218px"}
+          className={classes.img}
+        />
+        <p className={classes.header}>{header}</p>
+        <div className={classes.info}>
+          <div className={classes.text}>
+            <p>Starts in</p>
+            <span>{startsIn}</span>
+          </div>
+          <div className={classes.text}>
+            <p>Supply</p>
+            <span>{supply}</span>
+          </div>
+        </div>
+        <button className={classes.mint}>Mint</button>
+      </div>
+    </div>
+  );
+};
+
+export default CardMint;
