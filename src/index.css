@@ -11,6 +11,7 @@ body{
   height: 100%;
   width: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   /* contain: paint; */
   -webkit-overflow-scrolling: touch !important;
 } 
