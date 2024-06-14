@@ -6,14 +6,11 @@
   box-sizing: border-box;
   font-family: "IBM Plex Mono", monospace;
 }
-html {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 body{
   background-color: #0B0B0B;
+  height: 100%;
   width: 100%;
-  min-height: 100vh;
   overflow-y: auto;
-  overflow-x: hidden !important;
+  /* contain: paint; */
+  -webkit-overflow-scrolling: touch !important;
 } 

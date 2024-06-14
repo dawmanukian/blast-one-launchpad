@@ -20,7 +20,7 @@ const MintZone = () => {
             <div className={classes.line}></div>
             <span className={classes.score}>0 of 1000</span>
           </div>
-          <button className={classes.mint}>Mint for 0.03 ETH</button>
+          <button className={classes.mint} disabled>Mint for free</button>
         </div>
       </div>
     </div>
