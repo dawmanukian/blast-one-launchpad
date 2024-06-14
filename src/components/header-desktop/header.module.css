@@ -28,6 +28,7 @@
   padding-left: 13px;
   padding-right: 13px;
   min-width: 200px;
+  animation: pulse 1s infinite;
 }
 .link {
   text-decoration: none;
@@ -51,6 +52,13 @@
   display: flex;
   justify-content: center;
 }
+.logo svg {
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.logo svg:hover {
+  transform: scale(1.1);
+}
 .eth {
   display: flex;
   height: 36px;
@@ -67,6 +75,32 @@
 }
 .connect_wallet svg {
   cursor: pointer;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f4ff0233;
+  }
+
+  100% {
+    box-shadow: 0 0 0 14px #0000;
+  }
+}
+.coming {
+  width: 134px;
+  height: 28px;
+  background: #FFE0001A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35px;
+  margin-left: -20px;
+}
+.coming span{
+  color: #FFE000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }
 @media screen and (max-width: 450px) {
   .connect_wallet > div,

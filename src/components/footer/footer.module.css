@@ -37,4 +37,8 @@
 }
 a {
     text-decoration: none;
+    transition: all ease .5s;
+}
+a:hover {
+    transform: scale(0.93);
 }

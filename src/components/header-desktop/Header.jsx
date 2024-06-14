@@ -26,6 +26,9 @@ const Header = ({onOpenMenu, isMenuOpen}) => {
         >
           Explore
         </Link>
+        <div className={classes.coming}>
+          <span>Coming soon...</span>
+        </div>
       </div>
       <div className={classes.logo}>
         <svg
