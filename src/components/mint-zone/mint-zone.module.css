@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    transition: all ease 0.8s;
 }
 .texts {
     width: 342px;

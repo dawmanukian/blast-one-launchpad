@@ -7,7 +7,7 @@ import cube from "../../img/cube-pattern.png"
 
 const LaunchPad = () => {
   return (
-    <div>
+    <div style={{minHeight: "100vh"}}>
       <Slider />
       <div className={classes.block}>
         <div className={classes.cube}>

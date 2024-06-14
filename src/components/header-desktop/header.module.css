@@ -27,6 +27,7 @@
   gap: 15px;
   padding-left: 13px;
   padding-right: 13px;
+  min-width: 200px;
 }
 .link {
   text-decoration: none;
@@ -34,7 +35,7 @@
   transition: all ease 0.5s;
 }
 .link:hover {
-    transform: scale(0.90);
+  transform: scale(0.9);
 }
 .links {
   display: flex;
@@ -59,9 +60,19 @@
   font-weight: 600;
   padding-left: 13px;
   padding-right: 13px;
+  min-width: 75px;
 }
 .menu {
   display: none;
+}
+.connect_wallet svg {
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  .connect_wallet > div,
+  .connect_wallet > button {
+    display: none;
+  }
 }
 @media screen and (max-width: 1000px) {
   .menu {

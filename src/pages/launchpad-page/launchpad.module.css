@@ -9,6 +9,10 @@
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 80px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
 }
 .cards {
     width: 100%;
