@@ -1,12 +1,11 @@
 .card {
   width: 242px;
   height: 392px;
-  background: #131313;
-  border: 1px solid #212121;
   display: flex;
   justify-content: center;
   padding: 12px;
-  cursor: pointer;
+  position: relative;
+
 }
 .img {
   margin-bottom: 12px;
@@ -60,4 +59,18 @@
 .mint:disabled {
   color: #000;
   opacity: 30%;
+}
+.bg {
+  width: 242px;
+  height: 392px;
+  position: absolute;
+  background: #131313;
+  z-index: -1;
+  top: 0;
+  border: 1px solid #212121;
+  transition: all ease 0.4s;
+}
+.card:hover .bg {
+  background: rgba(255,255,255, 0.1);
+  border: 2px solid #3D3D3D;
 }

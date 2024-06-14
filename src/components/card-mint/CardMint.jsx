@@ -4,6 +4,7 @@ import classes from "./card-mint.module.css";
 const CardMint = ({ header, img, supply, startsIn, status }) => {
   return (
     <div className={classes.card}>
+      <div className={classes.bg}></div>
       <div className={classes.data}>
         <img
           src={img}
