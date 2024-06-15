@@ -7,6 +7,9 @@
   background: #0b0b0b;
   z-index: 99;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .menu li {
   color: #fff;
@@ -29,4 +32,50 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+.eth {
+  display: flex;
+  height: 36px;
+  align-items: center;
+  color: #ffe000;
+  background: #23200a;
+  font-weight: 600;
+  padding-left: 13px;
+  padding-right: 13px;
+  min-width: 75px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.connect_wallet {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 17px;
+}
+.connect {
+  border: none;
+  height: 36px;
+  background: #ffe000;
+  color: #0b0b0b;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f4ff0233;
+  }
+
+  100% {
+    box-shadow: 0 0 0 14px #0000;
+  }
 }
