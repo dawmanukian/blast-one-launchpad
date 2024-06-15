@@ -1,9 +1,10 @@
 .footer {
     height: 64px;
+    width: 100%;
     background: none;
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
 }
 .footer span {
     color: #FFFFFF;
