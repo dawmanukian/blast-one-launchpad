@@ -81,6 +81,7 @@ const Header = ({ onOpenMenu, isMenuOpen }) => {
         </svg>
       </div>
       <div className={classes.connect_wallet}>
+      <div className={classes.eth}>- ETH</div>
         <button className={classes.connect}>
           <svg
             width="24"
@@ -114,7 +115,6 @@ const Header = ({ onOpenMenu, isMenuOpen }) => {
           </svg>
           Connect wallet
         </button>
-        <div className={classes.eth}>- ETH</div>
         {isMenuOpen ? (
           <svg
             onClick={onOpenMenu}
