@@ -1,18 +1,32 @@
 .menu {
-    width: 100%;
-    max-width: 320px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    background: #0B0B0B;
-    z-index: 99;
-    padding: 20px;
+  width: 100%;
+  max-width: 320px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  background: #0b0b0b;
+  z-index: 99;
+  padding: 20px;
 }
 .menu li {
-    color: #fff;
-    font-weight: 500;
-    line-height: 24px;
-    font-size: 16px;
-    margin-bottom: 16px;
-    list-style-type: none;
+  color: #fff;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+.coming {
+  width: 134px;
+  height: 28px;
+  background: #ffe0001a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coming span {
+  color: #ffe000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }
