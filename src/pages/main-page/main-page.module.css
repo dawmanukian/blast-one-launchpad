@@ -6,7 +6,7 @@
     min-height: 852px;
 
 }
-.page > img {
+.cub{
     position: absolute;
     bottom: 0px;
     z-index: -1;

@@ -47,7 +47,6 @@ const MobileMenu = () => {
         )}
       </ul>
       <div style={{marginBottom: "75px"}}>
-        <div className={classes.eth}>- ETH</div>
         <button className={classes.connect}>
           <svg
             width="24"

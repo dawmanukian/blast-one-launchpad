@@ -14,4 +14,7 @@ body{
   overflow-x: hidden;
   /* contain: paint; */
   -webkit-overflow-scrolling: touch !important;
-} 
+}
+#root {
+  position: relative;
+}

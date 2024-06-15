@@ -103,7 +103,6 @@
   line-height: 20px;
 }
 @media screen and (max-width: 450px) {
-  .connect_wallet > div,
   .connect_wallet > button {
     display: none;
   }

@@ -4,7 +4,8 @@
     background: none;
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
+    bottom: 0px;
 }
 .footer span {
     color: #FFFFFF;
