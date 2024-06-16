@@ -10,18 +10,18 @@ import { useEffect } from "react";
 
 function App() {
 
+  const [showMobileMenu, setShowMobileMenu] = useState(false)
   useEffect(() => {
     const preventHorizontalScroll = (e) => {
       if (e.touches && e.touches.length === 1) {
         const touch = e.touches[0];
-        // Check if the user is attempting to scroll horizontally
         if (touch.clientX < 10 || touch.clientX > window.innerWidth - 10) {
           e.preventDefault();
         }
       }
     };
 
-    // Add event listener to prevent default horizontal touchmove behavior
+    // Adding event listener to prevent default horizontal touchmove behavior
     document.body.addEventListener('touchmove', preventHorizontalScroll, { passive: false });
 
     return () => {
