@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from "./connect.module.css";
 
 const Connect = () => {
-  const [connected, setConnected] = useState(true);
+  const [connected, setConnected] = useState(false);
   const [wallet, setWallet] = useState("TL1234aiqsJacvpji9QWMBazeEbTCKHpTN");
 
   function shortenText(text, startChars = 4, endChars = 3) {
@@ -15,7 +15,10 @@ const Connect = () => {
   return (
     <>
       {connected ? (
-        <button className={classes.connected}>
+        <button
+          className={classes.connected}
+          onClick={() => setConnected(!connected)}
+        >
           <svg
             width="24"
             height="24"
@@ -25,7 +28,7 @@ const Connect = () => {
           >
             <mask
               id="mask0_2465_1559"
-              style={{maskType: "alpha" }}
+              style={{ maskType: "alpha" }}
               maskUnits="userSpaceOnUse"
               x="1"
               y="1"
@@ -49,9 +52,39 @@ const Connect = () => {
           </svg>
 
           {shortenText(wallet)}
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask0_2468_825"
+              style={{ maskType: "alpha" }}
+              maskUnits="userSpaceOnUse"
+              x="4"
+              y="6"
+              width="12"
+              height="8"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.5891 6.91074C15.9145 7.23618 15.9145 7.76382 15.5891 8.08925L10.5891 13.0893C10.2637 13.4147 9.73602 13.4147 9.41058 13.0893L4.41058 8.08925C4.08514 7.76382 4.08514 7.23618 4.41058 6.91074C4.73602 6.58531 5.26366 6.58531 5.58909 6.91074L9.99984 11.3215L14.4106 6.91074C14.736 6.58531 15.2637 6.58531 15.5891 6.91074Z"
+                fill="black"
+              />
+            </mask>
+            <g mask="url(#mask0_2468_825)">
+              <rect width="20" height="20" fill="white" fill-opacity="0.4" />
+            </g>
+          </svg>
         </button>
       ) : (
-        <button className={classes.connect}>
+        <button
+          className={classes.connect}
+          onClick={() => setConnected(!connected)}
+        >
           <svg
             width="24"
             height="24"

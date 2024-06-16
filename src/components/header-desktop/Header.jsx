@@ -8,8 +8,6 @@ const Header = ({ onOpenMenu, isMenuOpen }) => {
   const location = useLocation();
   const [showAlert, setShowAlert] = useState(false);
 
-  const [isConnected, setIsConnected] = useState(false);
-
   return (
     <header className={classes.header}>
       <div className={classes.links}>
