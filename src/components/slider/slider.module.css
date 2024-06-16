@@ -44,3 +44,11 @@
     font-weight: 500;
     line-height: 20px;
 }
+@media screen and (max-width: 550px){
+    .slider {
+        height: 430px;
+    }
+    .slide_item, .arrows {
+        height: 300px;
+    }
+}

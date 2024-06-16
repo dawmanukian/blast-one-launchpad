@@ -5,10 +5,11 @@
   justify-content: center;
   padding: 12px;
   position: relative;
-
 }
 .img {
   margin-bottom: 12px;
+  height: 210px;
+  width: 218px;
 }
 .data {
   width: 218px;
@@ -71,6 +72,19 @@
   transition: all ease 0.4s;
 }
 .card:hover .bg {
-  background: rgba(255,255,255, 0.1);
-  border: 2px solid #3D3D3D;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #3d3d3d;
+}
+@media screen and (max-width: 550px) {
+  .card, .bg{
+    width: 200px;
+    height: 342px;
+  }
+  .data {
+    width: 176px;
+  }
+  .img {
+    width: 176px;
+    height: 160px;
+  }
 }

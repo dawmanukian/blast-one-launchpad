@@ -1,0 +1,44 @@
+.connect {
+  border: none;
+  height: 36px;
+  background: #ffe000;
+  color: #0b0b0b;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
+  min-width: 200px;
+  animation: pulse 1s infinite;
+}
+.connected {
+    border: none;
+    height: 36px;
+    background: #131313;
+    color: #717171;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    min-width: 148px;
+  }
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f4ff0233;
+  }
+
+  100% {
+    box-shadow: 0 0 0 14px #0000;
+  }
+}

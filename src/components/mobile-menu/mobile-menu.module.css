@@ -70,6 +70,9 @@
   width: 100%;
   animation: pulse 1s infinite;
 }
+.btn > button {
+  width: 100%;
+}
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 #f4ff0233;

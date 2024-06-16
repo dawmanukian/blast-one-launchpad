@@ -9,8 +9,6 @@ const CardMint = ({ header, img, supply, startsIn, status }) => {
         <img
           src={img}
           alt="card image"
-          height={"210px"}
-          width={"218px"}
           className={classes.img}
         />
         <p className={classes.header}>{header}</p>
