@@ -11,7 +11,7 @@ body{
   height: 100%;
   width: 100%;
   overflow-x: hidden!important;
-  touch-action: pan-x;
+  touch-action:none;
   -webkit-overflow-scrolling: touch !important;
 }
 #root {
